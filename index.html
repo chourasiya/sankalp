@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+ <link rel='icon' type='image/png' href='images/logo.png'>
+ <title>Sankalp | 2016</title>
+</head>
+<body background="images/8.jpg">
+  
+  <img style="position: absolute; left: 600px; top: 260px;" src="images/logo.png" width="125px" height="125px">
+  <br>
+  <span style="position: absolute; left: 565px; top: 365px;">
+  <progress id="progressbar" value="0" max="100" style="overflow:hidden; border:1px solid #282826; height:7px; width:175px"></progress>
+  <span id="status"></span>	
+  <!-- <a href="vivek.html" id="index"></a></span> -->
+  <script type="text/javascript" language="javascript">
+  function progressbarsim(al) 
+  {
+    var bar=document.getElementById('progressbar');
+    var status=document.getElementById('status');
+   
+    bar.value=al;
+    al++;
+    var sim=setTimeout("progressbarsim("+al+")",30);
+    if(al==100)
+    {
+    	
+    	bar.value=100;
+    	clearTimeout(sim);
+    	// document.getElementById('index').innerHTML="click here";
+      window.location="Sankalp.html";
+    }
+  }
+    var amountloaded=0;
+    progressbarsim(amountloaded);
+  </script>
+
+</body>
+</html>

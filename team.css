@@ -1,0 +1,28 @@
+body {
+    color: #7EA2B2;
+    font-family: "AvenirNextLTW01-Regular","Avenir LT",Avenir,sans-serif;
+}
+
+h1 {
+    font-size: 38px;
+    font-family: "Serifa W01 55 Roman","Serifa Std","Serifa","Museo Slab","Rockwell",georgia,serif;
+    color: #4g4g4g;
+    margin: 0px 0px 0.8em;
+    font-weight: normal;
+}
+h1 b {
+    color: #B3D88C;
+    font-weight: normal;
+}
+p{
+	text-align: justify;
+}
+.al{
+    text-align: center;
+
+}
+
+.pad{
+    vertical-align: center;
+    text-align: center;
+}
